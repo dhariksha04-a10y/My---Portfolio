@@ -104,6 +104,16 @@ h2 {
     color: #aab6ff;
 }
 
+.card a {
+    color: #8b9cff;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
 .skills {
     display: flex;
     justify-content: center;
@@ -122,10 +132,6 @@ footer {
     padding: 25px;
     background: #121a30;
     color: #c4cbe0;
-}
-
-a {
-    overflow-wrap: anywhere;
 }
 
 @media(max-width:600px) {
@@ -168,11 +174,8 @@ a {
 
 <div class="hero">
     <h1>Hello, I'm <span>Dhariksha</span></h1>
-
     <h3>Aspiring Data Analyst</h3>
-
     <p>Python | MS Excel | Power BI</p>
-
     <a class="btn" href="#about">Explore My Portfolio</a>
 </div>
 
@@ -242,7 +245,8 @@ a {
             from academic certificates and validate the details.
         </p>
 
-        <p><b>Technologies:</b>
+        <p>
+            <b>Technologies:</b>
             Python, FastAPI, EasyOCR and Supabase.
         </p>
     </div>
@@ -257,7 +261,10 @@ a {
             through analysis and visualization.
         </p>
 
-        <p><b>Tools:</b> Python, MS Excel and Data Visualization.</p>
+        <p>
+            <b>Tools:</b>
+            Python, MS Excel and Data Visualization.
+        </p>
     </div>
 </section>
 
@@ -265,16 +272,26 @@ a {
     <h2>Contact Me</h2>
 
     <div class="card">
-        <p><b>Email:</b> Add your email address</p>
+        <p>
+            <b>Email:</b>
+            <a href="mailto:dhariksha04@gamil.com">
+                dhariksha04@gamil.com
+            </a>
+        </p>
 
-        <p><b>LinkedIn:</b> Add your LinkedIn profile</p>
+        <p>
+            <b>LinkedIn:</b>
+            <a href="https://www.linkedin.com/in/dhariksha-p-2790b1349"
+               target="_blank" rel="noopener noreferrer">
+                Visit My LinkedIn Profile
+            </a>
+        </p>
 
         <p>
             <b>GitHub:</b>
             <a href="https://github.com/dhariksha04-a10y"
-               target="_blank"
-               style="color:#8b9cff;">
-               Visit My GitHub
+               target="_blank" rel="noopener noreferrer">
+                Visit My GitHub Profile
             </a>
         </p>
     </div>
