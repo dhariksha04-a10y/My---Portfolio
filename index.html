@@ -4,97 +4,285 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
+<title>Dhariksha | Personal Portfolio</title>
+
 <style>
-*{box-sizing:border-box;scroll-behavior:smooth}
-body{margin:0;background:#0b1020;color:#fff;font-family:Arial,sans-serif}
-header{padding:20px 8%;display:flex;justify-content:space-between;align-items:center;background:#121a30;position:sticky;top:0}
-.logo{font-size:23px;font-weight:bold;color:#8b9cff}
-nav a{color:white;text-decoration:none;margin-left:18px}
-.hero{text-align:center;padding:100px 20px;background:linear-gradient(135deg,#17264a,#17152f)}
-.hero h1{font-size:45px}.hero span{color:#8b9cff}
-.hero p{color:#c4cbe0;font-size:18px}
-.btn{display:inline-block;background:#8b9cff;color:#10152b;padding:12px 24px;border-radius:25px;text-decoration:none;font-weight:bold;margin-top:15px}
-section{padding:65px 9%;text-align:center}
-h2{color:#8b9cff;font-size:30px}
-.card{background:#17223a;padding:25px;margin:15px auto;border-radius:15px;max-width:750px;text-align:left}
-.card p{color:#c4cbe0;line-height:1.7}
-.skills{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
-.skill{background:#26365b;padding:12px 20px;border-radius:20px}
-footer{text-align:center;padding:25px;background:#121a30;color:#c4cbe0}
-@media(max-width:600px){header{flex-direction:column;gap:15px}nav a{margin:6px;font-size:13px}.hero h1{font-size:34px}}
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #0b1020;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121a30;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #8b9cff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+nav a:hover {
+    color: #8b9cff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #17264a, #17152f);
+}
+
+.hero h1 {
+    font-size: 45px;
+}
+
+.hero span {
+    color: #8b9cff;
+}
+
+.hero p {
+    color: #c4cbe0;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background: #8b9cff;
+    color: #10152b;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+section {
+    padding: 65px 9%;
+    text-align: center;
+}
+
+h2 {
+    color: #8b9cff;
+    font-size: 30px;
+}
+
+.card {
+    background: #17223a;
+    padding: 25px;
+    margin: 15px auto;
+    border-radius: 15px;
+    max-width: 750px;
+    text-align: left;
+}
+
+.card p {
+    color: #c4cbe0;
+    line-height: 1.7;
+}
+
+.card h3 {
+    color: #aab6ff;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #26365b;
+    padding: 12px 20px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #121a30;
+    color: #c4cbe0;
+}
+
+a {
+    overflow-wrap: anywhere;
+}
+
+@media(max-width:600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 6px;
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}
 </style>
 </head>
+
 <body>
+
 <header>
-<div class="logo">MY PORTFOLIO.</div>
-<nav>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#internship">Internship</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
+    <div class="logo">DHARIKSHA.</div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#internship">Internship</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
 <div class="hero">
-<h1>Hello, I'm <span>Dhariksha </span></h1>
-<h3>Aspiring Data Analyst</h3>
-<p>Python | MS Excel | SQL | Data Analytics</p>
-<a class="btn" href="#about">Explore My Portfolio</a>
+    <h1>Hello, I'm <span>Dhariksha</span></h1>
+
+    <h3>Aspiring Data Analyst</h3>
+
+    <p>Python | MS Excel | Power BI</p>
+
+    <a class="btn" href="#about">Explore My Portfolio</a>
 </div>
 
 <section id="about">
-<h2>About Me</h2>
-<div class="card">
-<p>I am a Computer Science student interested in Data Analytics and technology. I enjoy learning new skills, analysing data and developing practical knowledge. My goal is to become a skilled professional through continuous learning and practical experience.</p>
-</div>
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+            I am a Computer Science student with an interest in
+            Data Analytics and Software Development. I have practical
+            knowledge of Python, MS Excel and Power BI through
+            internship training and project experience.
+            I enjoy learning new technologies, improving my technical
+            skills and developing practical solutions.
+        </p>
+    </div>
 </section>
 
 <section id="skills">
-<h2>Technical Skills</h2>
-<div class="skills">
-<div class="skill">Python</div>
-<div class="skill">MS Excel</div>
-<div class="skill">SQL</div>
-<div class="skill">Pandas</div>
-<div class="skill">NumPy</div>
-<div class="skill">Power BI</div>
-<div class="skill">Data Visualization</div>
-</div>
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">MS Excel</div>
+        <div class="skill">Power BI</div>
+        <div class="skill">Data Analysis</div>
+        <div class="skill">Data Visualization</div>
+    </div>
 </section>
 
 <section id="internship">
-<h2>Internship Experience</h2>
-<div class="card">
-<h3>Data Analytics Internship – Techforge</h3>
-<p><b>Duration:</b> 15 Days</p>
-<p>Learned Python, MS Excel and SQL. Gained practical knowledge of data cleaning, data preprocessing, data manipulation, Exploratory Data Analysis and data visualization.</p>
-</div>
+    <h2>Internship Experience</h2>
+
+    <div class="card">
+        <h3>Data Analytics Internship – Techforge</h3>
+
+        <p><b>Duration:</b> 15 Days</p>
+
+        <p>
+            Completed a 15-day Data Analytics internship at Techforge.
+            Gained practical knowledge of Python, MS Excel and Power BI.
+        </p>
+
+        <p><b>Key Learning Areas:</b></p>
+
+        <p>
+            • Python programming<br>
+            • Data analysis using MS Excel<br>
+            • Data visualization using Power BI<br>
+            • Data cleaning and preprocessing<br>
+            • Exploratory Data Analysis<br>
+            • Identifying patterns and trends
+        </p>
+    </div>
 </section>
 
 <section id="projects">
-<h2>My Projects</h2>
-<div class="card">
-<h3>Customer Sales Data Analysis</h3>
-<p>Worked with a customer sales dataset to understand data patterns and trends using data analysis techniques.</p>
-<p><b>Tools:</b> Python, Excel, Pandas and Data Visualization.</p>
-</div>
-<div class="card">
-<h3>Smart ERP – Certificate Scanner</h3>
-<p>A student certificate scanning project designed to extract student information from academic documents using OCR and organize the details in a database.</p>
-</div>
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>Smart ERP – Certificate Scanner</h3>
+
+        <p>
+            Developing a student certificate-scanning system
+            designed to simplify college admission data entry.
+            It uses OCR technology to extract student information
+            from academic certificates and validate the details.
+        </p>
+
+        <p><b>Technologies:</b>
+            Python, FastAPI, EasyOCR and Supabase.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Customer Sales Data Analysis</h3>
+
+        <p>
+            A data analytics project based on a customer sales
+            dataset. The project focuses on understanding data,
+            identifying useful patterns and presenting insights
+            through analysis and visualization.
+        </p>
+
+        <p><b>Tools:</b> Python, MS Excel and Data Visualization.</p>
+    </div>
 </section>
 
 <section id="contact">
-<h2>Contact Me</h2>
-<div class="card">
-<p>Email: Add your email address</p>
-<p>LinkedIn: Add your LinkedIn profile</p>
-<p>GitHub: github.com/dhariksha04-a10y</p>
-</div>
+    <h2>Contact Me</h2>
+
+    <div class="card">
+        <p><b>Email:</b> Add your email address</p>
+
+        <p><b>LinkedIn:</b> Add your LinkedIn profile</p>
+
+        <p>
+            <b>GitHub:</b>
+            <a href="https://github.com/dhariksha04-a10y"
+               target="_blank"
+               style="color:#8b9cff;">
+               Visit My GitHub
+            </a>
+        </p>
+    </div>
 </section>
 
-<footer>© 2026 Your Name | Personal Portfolio</footer>
+<footer>
+    © 2026 Dhariksha | Personal Portfolio
+</footer>
+
 </body>
 </html>
